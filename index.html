@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Snap-Twitter</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="image">
+        <img src="image.jpg" alt="Messi" />
+        <input type="text" class="name" id="name" placeholder="Name" />
+        <input
+          type="text"
+          class="username"
+          id="username"
+          placeholder="username"
+        />
+        <button class="btn">Follow</button>
+        <i class="bx bxs-chevron-down"></i>
+      </div>
+      <div class="main1">
+        <textarea
+          
+          class="write_here"
+          placeholder="Write here..."
+        ></textarea>
+      </div>
+      <div>
+        <div class="clock__date">
+          <span id="date-day"></span>
+          <span id="date-month"></span>
+          <span id="date-year"></span>
+        </div>
+
+        <div class="clock__text">
+          <div class="clock__text-hour" id="text-hour"></div>
+          <div class="clock__text-minutes" id="text-minutes"></div>
+          <div class="clock__text-ampm" id="text-ampm"></div>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="bx bx-message-rounded">13</i>
+        <i class="bx bx-repost">26</i>
+        <i class="bx bx-heart">100</i>
+        <i class="bx bx-envelope-open"></i>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

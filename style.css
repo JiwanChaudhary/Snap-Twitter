@@ -1,0 +1,168 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6dd5ed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background: #fff;
+    height: 185px;
+    width: 342px;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 7px;
+}
+
+.main1 {
+    background: #fff;
+    height: 100px;
+    width: 330px;
+    position: relative;
+    top: 29px;
+    left: 6px;
+    color: white;
+}
+
+.write_here {
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    height: 90px;
+    width: 300px;
+    position: relative;
+    left: 8px;
+}
+
+.image {
+    display: flex;
+    height: 15px;
+    width: 5px;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.name {
+    position: absolute;
+    border: none;
+    left: 35px;
+    top: -8px;
+    font-weight: 550;
+    text-decoration: none;
+    background: #fff;
+}
+
+.username {
+    position: relative;
+    border: none;
+    left: 12px;
+    top: 5px;
+    font-size: 11px;
+    text-decoration: none;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 15px;
+    background: #fff;
+    font-size: 9.5px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn {
+    position: relative;
+    left: 81px;
+    top: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+i {
+    position: relative;
+    left: 87px;
+    top: 5px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.clock__date {
+    position: relative;
+    top: 33px;
+    left: 16px;
+    font-size: 9px;
+}
+
+.clock__text {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 69px;
+    letter-spacing: 1px;
+    font-size: 9px;
+}
+
+/* .c1 {
+    position: relative;
+    top: 5px;
+    left: 7px;
+} */
+
+.icons {
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 14px;
+    left: -79px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    color: rgb(63, 59, 59);
+    /* padding: 5px; */   
+}
+
+.icons i {
+    display: block;
+    padding: 5px 18px;
+    /* border-radius: 15px; */
+    text-decoration: none;
+    padding-left: 1px;
+    /* padding-right: 3px; */
+}
+
+/* .bx::before {
+    content: "";
+    margin-right: 0.5em;
+} */
